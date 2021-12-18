@@ -5,7 +5,8 @@ text-align: center;
     right: 0;
     text-decoration: none;
     margin-right: 18px;
+    color: #FFFFFF;
 }
-.header__lang-link:last-child {
-
+.header__lang-link:nth-child(2n) {
+    margin-right: 0;
 }
