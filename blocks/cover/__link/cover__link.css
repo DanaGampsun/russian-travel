@@ -21,9 +21,8 @@
     height: 100%;
     background: black;
     position: absolute;
-    opacity: .3;
     transition: .3s;
-
+    opacity: .3;
 }
 
 .cover__link:hover:after {
