@@ -13,6 +13,7 @@
     background-position: center;
     position: relative;
 
+
 }
 
 .cover__link:after {
@@ -22,7 +23,8 @@
     background: #2A2C2F;
     position: absolute;
     transition: .3s;
-    opacity: .3;
+    opacity: .3; /*Вы имеете в виду создать отдельно класс __overlay и задать ему сво-ва черной картинки с opacity*/
+
 }
 
 .cover__link:hover:after {
